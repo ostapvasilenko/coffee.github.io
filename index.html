@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Coffee</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header id="header" class="header">
+        <div class="container">
+            <nav class="nav-bar">
+                <a href="#" class="nav-branding"><img src="img/logo.png" alt="Logo"></a>
+
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#menu" class="nav-link">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">Contact Us</a>
+                    </li>
+                    <button class="header__btn">SignUp</button>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+        <div class="header__form-wrapper">
+            <div class="header__registration_form">
+                <h2 class="text-center">Registration</h2>
+                <form onsubmit="return validateForm()">
+                    <input type="text" placeholder="Name" id="name" pattern="[A-Za-z]+">
+                    <input type="text" placeholder="SurName" id="surname" pattern="[A-Za-z]+">
+                    <input type="email" placeholder="Email" id="email">
+                    <input type="password" placeholder="Password" id="password">
+                    <button class="header__btn" type="submit">SignUp!</button>
+                </form>
+            </div>
+        </div>
+    </header>
+    <section id="home" class="hero">
+
+        <div class="container">
+            <div class="hero__info">
+                <h4>We’ve got your morning covered with</h4>
+                <h1>Coffee</h1>
+                <p>It is best to start your day with a cup of coffee. Discover the
+                    best flavours coffee you will ever have. We provide the best
+                    for our customers.</p>
+                <button id="btn_hero">Order Now</button>
+            </div>
+        </div>
+
+    </section>
+    <section id="discover" class="discover">
+        <img class="discover__effect" src="img/discover-next.png" alt="">
+        <div class="container">
+            <div class="discover__info">
+                <h2>Discover the best coffee</h2>
+                <p>Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity
+                    and
+                    helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater.
+                    There
+                    is
+                    no doubt that you will enjoy this coffee more than others you have ever tasted.</p>
+                <button id="discover__btn">Learn More</button>
+            </div>
+            <div class="discover__img">
+                <img src="img/discover.png" alt="">
+            </div>
+
+            <div id="discover__popup">
+                <h2 class="text-center">Discover the best coffee</h2>
+                <p>Bean Scene is a coffee shop that provides you with quality coffee that helps boost your productivity
+                    and
+                    helps build your mood. Having a cup of coffee is good, but having a cup of real coffee is greater.
+                    There
+                    is
+                    no doubt that you will enjoy this coffee more than others you have ever tasted. <br>
+                    Coffee is a popular beverage that is enjoyed by people all over the world. It is made from the
+                    roasted
+                    seeds of the Coffea plant and has a unique flavor and aroma that is loved by many. In this article,
+                    we
+                    will provide a brief overview of coffee, including its history, production, and health benefits.
+                    <br>
+                    Coffee has a long and fascinating history that dates back to the 9th century. According to legend, a
+                    goat herder named Kaldi discovered coffee when he noticed that his goats became unusually energetic
+                    after eating the berries of the Coffea plant. Kaldi shared his discovery with the local monks, who
+                    began
+                    to brew the berries into a drink that helped them stay awake during long prayer sessions. <br>
+                    Coffee quickly spread throughout the Middle East and Africa and became a popular drink among the
+                    upper
+                    classes. It wasn't until the 16th century that coffee was introduced to Europe, where it quickly
+                    became
+                    a staple of daily life. Today, coffee is one of the most popular beverages in the world, with
+                    millions
+                    of people consuming it every day. <br>
+                    Coffee production begins with the cultivation of the Coffea plant, which is primarily grown in
+                    countries
+                    such as Brazil, Colombia, and Ethiopia. The plant produces red or purple berries, which are
+                    harvested
+                    and processed to extract the coffee beans inside. <br>
+                    The beans are then roasted, which gives them their distinctive flavor and aroma. Roasting can be
+                    done at
+                    various temperatures and for different lengths of time, depending on the desired flavor and
+                    intensity of
+                    the coffee. After roasting, the beans are ground and brewed into coffee, which can be enjoyed in a
+                    variety of ways, such as espresso, cappuccino, and latte. <br>
+                    Coffee has been the subject of numerous studies, and many health benefits have been attributed to
+                    its
+                    consumption. Here are some of the most notable benefits:
+
+                    Boosts energy: Coffee is well-known for its ability to increase alertness and improve mental focus.
+                    This
+                    is due to its caffeine content, which stimulates the central nervous system and increases the
+                    production
+                    of neurotransmitters like dopamine and norepinephrine.
+
+                    May reduce the risk of type 2 diabetes: Studies have shown that regular coffee consumption may lower
+                    the
+                    risk of developing type 2 diabetes. This is thought to be due to the presence of compounds in coffee
+                    that improve insulin sensitivity and reduce inflammation in the body.
+
+                    Protects the liver: Coffee has been shown to have a protective effect on the liver and may reduce
+                    the
+                    risk of developing liver disease. This is due to its ability to decrease the amount of fat stored in
+                    the
+                    liver and reduce inflammation.
+                </p>
+                <button id="discover__close_button">Close Window</button>
+            </div>
+        </div>
+    </section>
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Enjoy a new blend of coffee style</h2>
+                    <p>Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="menu__card">
+                        <img src="img/menu-1.png" alt="">
+                        <h4>Cappuccino</h4>
+                        <p>Coffee 50% | Milk 50%</p>
+                        <h5>$8.50</h5>
+                        <span><button class="buy-btn" data-product="Cappuccino" data-product1="Coffee 50% | Milk 50%"
+                                data-product2="$8.50">Order Now</button></span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="menu__card">
+                        <img src="img/menu-2.png" alt="">
+                        <h4>Chai Latte</h4>
+                        <p>Coffee 50% | Milk 50%</p>
+                        <h5>$8.00</h5>
+                        <span><button class="buy-btn" data-product="Chai Latte" data-product1="Coffee 50% | Milk 50%"
+                                data-product2="$8.00">Order Now</button></span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="menu__card">
+                        <img src="img/menu-3.png" alt="">
+                        <h4>Macchiato</h4>
+                        <p>Coffee 50% | Milk 50%</p>
+                        <h5>$9.30</h5>
+                        <span><button class="buy-btn" data-product="Macchiato" data-product1="Coffee 50% | Milk 50%"
+                                data-product2="$9.30">Order Now</button></span>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-3">
+                    <div class="menu__card">
+                        <img src="img/menu-4.png" alt="">
+                        <h4>Expresso</h4>
+                        <p>Coffee 50% | Milk 50%</p>
+                        <h5>$7.50</h5>
+                        <span><button class="buy-btn" data-product="Expresso" data-product1="Coffee 50% | Milk 50%"
+                                data-product2="$7.50">Order Now</button></span>
+                    </div>
+                </div>
+                <div id="modal" class="modal">
+                    <span class="close">&times;</span>
+                    <h2>Your order</h2>
+                    <h3 class="product-name"></h3>
+                    <p class="product-description"></p>
+                    <h5 class="product-price"></h5>
+                    <button onclick="showMessage()" class="order-btn">Order !</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="why-we">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Why are we different?</h2>
+                    <p>We don’t just make your coffee, we make your day!</p>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="why-we__card">
+                        <span><img src="img/why-we-1.png" alt=""></span>
+                        <h3>Supreme Beans</h3>
+                        <p>Beans that provides
+                            great taste</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="why-we__card">
+                        <span><img src="img/why-we-2.png" alt=""></span>
+                        <h3>High Quality</h3>
+                        <p>We provide the
+                            highest quality</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="why-we__card">
+                        <span><img src="img/why-we-3.png" alt=""></span>
+                        <h3>Extraordinary </h3>
+                        <p>Coffee like you have
+                            never tasted</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="why-we__card">
+                        <span><img src="img/why-we-4.png" alt=""></span>
+                        <h3>Affordable Price</h3>
+                        <p>Our Coffee prices are
+                            easy to afford</p>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <div class="why-we__info">
+                        <p>Great ideas start with great coffee, Lets help you achieve that</p>
+                        <h3>Get started today.</h3>
+                        <button id="why-we_btn">Join Us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <span class="why-we__effect"><img src="img/menu-effect.png" alt=""></span>
+    </section>
+    <section class="image">
+        <div class="image__img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex align-items-center">
+                        <div class="image__img_info">
+                            <h2>Get a chance to have an
+                                Amazing morning</h2>
+                            <p>We are giving you are one time opportunity to
+                                experience a better life with coffee.</p>
+                            <button id="image_btn">Order Now</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <span><img src="img/image-img-cup.png" alt=""></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image__img_last">
+            <img src="img/image-bean.png" alt="">
+        </div>
+    </section>
+    <section class="slider">
+        <img class="slider__img" src="img/slider-1.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2>Our coffee perfection feedback</h2>
+                    <p>Our customers has amazing things to say about us</p>
+                </div>
+                <div class="col-12">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__body">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.
+                                        It has survived not only five centuries, but also the leap into electronic
+                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                        with
+                                        the release of Letraset.....</p>
+                                    <h3>Jonny Thomas</h3>
+                                    <h6>Project Manager</h6>
+                                    <img src="img/slider-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__body">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.
+                                        It has survived not only five centuries, but also the leap into electronic
+                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                        with
+                                        the release of Letraset.....</p>
+                                    <h3>Thom Slick</h3>
+                                    <h6>Designer</h6>
+                                    <img src="img/slider-img.png" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="swiper-slide__body">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard dummy text ever since the 1500s, when an
+                                        unknown printer took a galley of type and scrambled it to make a type specimen
+                                        book.
+                                        It has survived not only five centuries, but also the leap into electronic
+                                        typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                                        with
+                                        the release of Letraset.....</p>
+                                    <h3>Nick Johnson</h3>
+                                    <h6>Web Developer</h6>
+                                    <img src="img/slider-img.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"><img src="img/slider-stroke-right.png" alt=""></div>
+                        <div class="swiper-button-prev"><img src="img/slider-stroke-left.png" alt=""></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img class="slider__img_last" src="img/slider-2.png" alt="">
+    </section>
+    <section id="contacts" class="subscribe">
+        <div class="subscribe__img">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2>Subscribe to get the Latest News</h2>
+                        <p>Don’t miss out on our latest news, updates, tips and special offers</p>
+                        <form>
+                            <input class="subscribe__img_label" type="email" placeholder="Enter your mail" required
+                                validationMessage="Будь ласка, введіть свій email.">
+                            <input class="subscribe__img_btn" type="submit" value="Suscribe">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <img class="footer__main_img" src="img/footer_image.png" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4 footer__info">
+                    <a href="/">Bean Scene</a>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book.</p>
+                    <div class="footer__img">
+                        <a target="_blank" href="https://uk-ua.facebook.com/"><img src="img/facebook.png"
+                                alt="facebook"></a>
+                        <a target="_blank" href="https://www.instagram.com/"><img src="img/instagram.png"
+                                alt="instagram"></a>
+                        <a target="_blank" href="https://www.youtube.com/"><img src="img/youtube.png" alt="youtube"></a>
+                        <a target="_blank" href="https://twitter.com/?lang=uk"><img src="img/twitter.png"
+                                alt="twitter"></a>
+                    </div>
+                </div>
+                <div class="col-2 footer__menu">
+                    <h3>About</h3>
+                    <ul>
+                        <li><a href="#">Menu</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">News & Blogs</a></li>
+                        <li><a href="#">Help & Supports</a></li>
+                    </ul>
+                </div>
+                <div class="col-2 footer__menu">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">How we work</a></li>
+                        <li><a href="#">Terms of service</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="col-4 footer__menu">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><a href="#">Akshya Nagar 1st Block 1st Cross</a></li>
+                        <li><a href="#">+1 202-918-2132</a></li>
+                        <li><a href="#">beanscene@mail.com</a></li>
+                        <li><a href="#">www.beanscene.com</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4 footer__menu_mobile">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    About
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                <ul>
+                                    <li><a href="#">Menu</a></li>
+                                    <li><a href="#">Features</a></li>
+                                    <li><a href="#">News & Blogs</a></li>
+                                    <li><a href="#">Help & Supports</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 footer__menu_mobile">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    <h4>Company</h4>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                <ul>
+                                    <li><a href="#">How we work</a></li>
+                                    <li><a href="#">Terms of service</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 footer__menu_mobile">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="flush-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    <h4>Contact Us</h4>
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                <ul>
+                                    <li><a href="#">Akshya Nagar 1st Block 1st Cross</a></li>
+                                    <li><a href="#">+1 202-918-2132</a></li>
+                                    <li><a href="#">beanscene@mail.com</a></li>
+                                    <li><a href="#">www.beanscene.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div style="display: none!important;">
+        <!-- <svg id="icon-location" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"> -->
+        <!-- <path -->
+        <!-- d="M10 1.25C8.1773 1.25215 6.42987 1.97717 5.14102 3.26602C3.85218 4.55486 3.12716 6.3023 3.12501 8.125C3.12282 9.61452 3.60937 11.0636 4.51001 12.25C4.51001 12.25 4.69751 12.4969 4.72813 12.5325L10 18.75L15.2744 12.5294C15.3019 12.4963 15.49 12.25 15.49 12.25L15.4906 12.2481C16.3908 11.0623 16.8771 9.61383 16.875 8.125C16.8729 6.3023 16.1478 4.55486 14.859 3.26602C13.5701 1.97717 11.8227 1.25215 10 1.25V1.25ZM10 10.625C9.50555 10.625 9.02221 10.4784 8.61108 10.2037C8.19996 9.92897 7.87953 9.53852 7.69031 9.08171C7.50109 8.62489 7.45158 8.12223 7.54804 7.63727C7.64451 7.15232 7.88261 6.70686 8.23224 6.35723C8.58187 6.0076 9.02733 5.7695 9.51228 5.67304C9.99723 5.57657 10.4999 5.62608 10.9567 5.8153C11.4135 6.00452 11.804 6.32495 12.0787 6.73607C12.3534 7.1472 12.5 7.63055 12.5 8.125C12.4992 8.78779 12.2355 9.42319 11.7669 9.89185C11.2982 10.3605 10.6628 10.6242 10 10.625V10.625Z" -->
+        <!-- fill="#FFAE9C" /> -->
+        <!-- </svg> -->
+
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
